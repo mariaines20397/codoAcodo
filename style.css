@@ -1,0 +1,203 @@
+.navbar {
+    background: #454242;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.nav-primero {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.logo img {
+    width: 120px;
+    height: 60px;
+
+}
+
+.nav a {
+    color: white;
+    font-weight: 500;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+#disabled {
+    color: rgba(255, 255, 255, 0.688);
+
+}
+
+#tickets {
+    color: rgb(14, 164, 14);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.card-carrousel img {
+    height: 550px;
+    border-radius: 0;
+    filter: brightness(0.6);
+}
+
+.card-carrousel-text {
+    width: 550px;
+    position: absolute;
+    top: 30%;
+    text-align: end;
+    left: 700px;
+}
+
+.cardPersons {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 80%;
+}
+
+.text {
+    text-align: center;
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+.etiquetas {
+    display: flex;
+    height: 30px;
+}
+
+.javascript {
+    background: rgb(240, 240, 23);
+    font-weight: bold;
+    width: 85px;
+    height: 25px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.react {
+    color: white;
+    font-weight: bold;
+    background: rgb(72, 160, 160);
+    width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    height: 25px;
+    margin-right: 5px;
+
+}
+
+.negocios {
+    color: white;
+    font-weight: bold;
+    background: rgb(140, 138, 138);
+    width: 85px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    height: 25px;
+    margin-right: 5px;
+
+}
+
+.startups {
+    color: white;
+    font-weight: bold;
+    background: red;
+    width: 75px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    height: 25px;
+    margin-right: 5px;
+
+}
+
+.bsas {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.honolulu {
+    width: 50%;
+    height: 50%;
+}
+
+.honolulu img {
+    width: 50vw;
+}
+
+.text-img {
+    background: #454242;
+
+    color: white;
+    border-left: 0.5px solid white;
+}
+
+.text-img p {
+    margin: 10px;
+    font-size: 15px;
+
+}
+
+.text-img h3 {
+    margin: 10px;
+}
+
+.text-img button {
+    margin: 10px;
+}
+
+.formulario {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    flex-direction: column;
+    width: 700px;
+}
+
+.button-form button {
+    width: 700px;
+}
+
+.input {
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 20px;
+    background: rgb(25, 77, 167);
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.item-footer {
+    width: 90px;
+    text-align: center;
+}
